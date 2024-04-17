@@ -1,0 +1,14 @@
+.cont {
+    background-color: rgb(192, 245, 192);
+    min-width: 20px;
+    min-height: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.cont.header {
+    background-color: floralwhite;
+    border-radius: 0px ;
+    margin: 0px;
+}
