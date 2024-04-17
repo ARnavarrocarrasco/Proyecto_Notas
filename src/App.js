@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { getNotes } from './controllers/frontController';
 import Notes from './font/Notes'
+import AtomicDesign from './font/AtomicDesign';
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -14,7 +15,8 @@ function App() {
   return (
     <div className="App">
       <h1>Bienvenido a la aplicación de Notas</h1>
-      <Notes notes = {notes}/>
+      {/* <Notes notes = {notes}/> */}
+      <AtomicDesign/>
     </div>
   );
 }
