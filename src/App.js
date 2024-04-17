@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1>Bienvenido a la aplicación de Notas</h1>
-      {/* <Notes notes = {notes}/> */}
+      <Notes notes = {notes}/>
       <AtomicDesign/>
     </div>
   );

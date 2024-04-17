@@ -7,12 +7,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.btn {
+.btn.red {
     background-color: red;
     color: white;
 }
-/* 
+
 .btn.blue {
     background-color: blue;
     color: white;
-} */
+}
