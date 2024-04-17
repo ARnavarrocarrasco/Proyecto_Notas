@@ -10,7 +10,7 @@ const Notes = ({notes}) => {
       Esta es la lista de notas pendientes
       <ul className='notes List'>
         {notes.map((note,i) => (
-            <li key={i}>{note}</li>
+            <li key={i}>{note.note}</li>
         ))}
       </ul>
     </div>
